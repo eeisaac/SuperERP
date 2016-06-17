@@ -39,6 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTO\ContasBancoDTO.cs" />
+    <Compile Include="DTO\ContasPagarDTO.cs" />
+    <Compile Include="DTO\ContasReceberDTO.cs" />
+    <Compile Include="DTO\ExtratoDTO.cs" />
+    <Compile Include="DTO\MovimentacaoDTO.cs" />
+    <Compile Include="DTO\PlanoCategoriaDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -46,6 +52,9 @@
       <Project>{42e4e633-93c0-4f93-91c7-85049b4ca2a5}</Project>
       <Name>SuperERP.DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
